@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="116dp"
+        android:layout_height="103dp"
+        android:translationX="150dp"
+        android:translationY="40dp"
+        app:srcCompat="@mipmap/mokshlogo" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="214dp"
+        android:layout_height="212dp"
+        android:background="@mipmap/sos"
+        android:translationX="90dp"
+        android:translationY="20dp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@mipmap/hospital"
+        android:text="Hospital"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:translationX="50dp"
+        android:translationY="80dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@mipmap/contacts"
+        android:foregroundTint="#F1E5E5"
+        android:text="Contacts"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:translationX="170dp"
+        android:translationY="-10dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@mipmap/phone"
+        android:text="Phone"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:translationX="270dp"
+        android:translationY="-100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="-25dp"
+        android:onClick="processSignupLinkClick"
+        android:text="More Services"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:translationX="100dp"
+        android:translationY="-20dp" />
+</LinearLayout>
+
